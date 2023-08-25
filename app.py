@@ -104,7 +104,6 @@ def get_csv_text(file):
     return "a"
 
 def get_text_chunks(text):
-    # spilit ito chuncks
     text_splitter = TokenTextSplitter(
         chunk_size=1900,
         chunk_overlap=100,
